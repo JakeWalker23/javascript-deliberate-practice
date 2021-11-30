@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         </h1>
 
         <div className={styles.grid}>
-          <Link href="/training">
+          <Link href="/trainingMenu">
             <div className={styles.card}
             >
               <h2>Training &rarr; </h2>

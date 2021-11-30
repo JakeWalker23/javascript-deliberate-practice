@@ -1,0 +1,14 @@
+Front end development is about Events.
+
+    . Click
+
+    . Submit
+
+    . Type
+
+    . More
+
+
+
+
+Utilise Jest / Testing Library with this code. TDD is the mantra. 

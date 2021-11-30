@@ -1,0 +1,45 @@
+.signUp {
+    border: 0.20px solid black;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.signUpText {
+    color: cornflowerblue;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.signUpLabel {
+    border: 1px solid black;
+
+}
+
+.signUpInput {
+    border: 1px solid blue;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.signUpButton {
+    padding: 10px;
+    width: 175px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.signUpButtonDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.signUpTermsAndConditions {
+    margin: 50px 0px 0px 20px;
+    display: flex;
+    justify-content: center;
+}
