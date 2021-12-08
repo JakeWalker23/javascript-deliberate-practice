@@ -18,12 +18,12 @@ const TrainingMenu = () => {
 
             </div>
             <div className={styles.grid}>
-                <Link href="/#">
+                <Link href="/backgroundButton">
                     <div className={styles.card}
                     >
-                        <h2>Coming Soon </h2>
+                        <h2>Background Button </h2>
                         <p>
-                            Dojo under development.
+                            Enter the deliberate practice dojo for background button.
                         </p>
                     </div>
                 </Link>
