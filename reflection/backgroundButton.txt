@@ -1,0 +1,51 @@
+Reflection
+
+
++ What went well
+- What went not well
+* What could be improved next time
+
+
+
++ Learnt how to use Usestate
+
++ Applied a function to an event (onClick & mouseDown)
+
++ Made the training SPICE. Specific goal was met.
+
++ Actually turned up for training. Therefore I am better.
+
+* Understanding of state. Who does state belong to?
+
+* Better understanding of events
+
+* Set the bar higher next time
+
++ Used React library (Draggable). Component was draggabled. 
+
+- Did not read documentation of draggable. Reading docs is always key. 
+
+
+
+
+
+
+Overall accomplished the task with focus. Small task but big achievement on the way to great things.
+
+
+S = a button that changes the background on click event
+
+P = yes
+
+I = yes
+
+C = yes
+
+E = no
+
+
+Constraints:
+
+    [X] Must use interesting colors
+
+    [X] Button should be draggable

@@ -1,0 +1,27 @@
+Reflection:
+
++ What went good
+- What not so good
+* What could be improved
+
+
+
++ Using next. Got training environment set up
+
+- My Front end needs work
+
+* positioning should be improved
+
+* layout should be improved
+
+* colors should be improved
+
+* knowledge of the DOM should be improved
+
+* More knowledge of CSS commands should be improved
+
++ Good experience I have got the amount of code a simple component needs.
+
+- eye for design.
+
+* Eye for design.
