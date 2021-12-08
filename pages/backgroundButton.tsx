@@ -6,7 +6,7 @@ const BackgroundButton = () => {
 
     const [color, setColor] = useState('white');
 
-    function change(event) {
+    function changeBackground(event) {
 
         if (event.cancelable) {
             event.preventDefault();
@@ -23,7 +23,7 @@ const BackgroundButton = () => {
 
     return <div className={styles.background} style={{ background: color }}>
         <Draggable>
-            <button className={styles.button} onClick={change}>Change Colour</button>
+            <button className={styles.button} onClick={changeBackground}>Change Background</button>
         </Draggable>
     </div >
 }
