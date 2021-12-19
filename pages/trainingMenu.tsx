@@ -30,6 +30,31 @@ const TrainingMenu = () => {
 
             </div>
             <div className={styles.grid}>
+                <Link href="/bmi">
+                    <div className={styles.card}
+                    >
+                        <h2>BMI Calculator </h2>
+                        <p>
+                            Enter the deliberate practice dojo for BMI Calculator
+                        </p>
+                    </div>
+                </Link>
+
+            </div>
+            <div className={styles.grid}>
+                <Link href="/#">
+                    <div className={styles.card}
+                    >
+                        <h2>Coming Soon </h2>
+                        <p>
+                            Dojo under development.
+                        </p>
+                    </div>
+                </Link>
+
+            </div>
+
+            <div className={styles.grid}>
                 <Link href="/#">
                     <div className={styles.card}
                     >
