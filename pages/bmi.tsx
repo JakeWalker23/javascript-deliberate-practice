@@ -8,6 +8,8 @@ const BMI = () => {
         height: ""
     });
 
+    const [color, setColor] = useState('white');
+
     const [bmi, setBMI] = useState(0)
 
     function handle(e) {
@@ -28,14 +30,20 @@ const BMI = () => {
         const height = calculateInches(data.height)
 
         setBMI(BMI(height, data.weight))
+
+        if (bmi > 19 && bmi < 25) {
+            setColor('green')
+        } else {
+            setColor('red')
+        }
     }
 
     return (
         <div>
             <h4 className={styles.heading}>BMI Calculator</h4>
 
-            <div className={styles.bmi}>
-                {bmi}
+            <div className={styles.bmi} style={{ color: color }}>
+                {bmi.toFixed(2)}
             </div>
 
             <label className={styles.weight}>
@@ -57,18 +65,3 @@ const BMI = () => {
 }
 
 export default BMI
-
-/*
-
-TODO
-[ ] Round BMI to 2 decimal place
-
-[ ] Give BMI colour based on result
-
-[ ] Make input box underlined
-
-[ ] Use a GUI interface with sliders for height and weight.
-
-[ ] Update the user interface on the fly.
-
-*/
