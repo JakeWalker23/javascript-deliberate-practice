@@ -1,0 +1,77 @@
+.heading {
+    text-align: center;
+    font-size: 50px;
+}
+
+.bmi {
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.weight {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.input-weight {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    border-width: 0 0 2px;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+.input-weight:focus {
+    border-bottom: 1px solid black;
+}
+
+.height {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.input-height {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    border: none;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-width: 0 0 2px;
+    outline: none;
+    border-bottom-left-radius: 0px;
+
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+.input-height:focus {
+    border-bottom: 1px solid black;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button {
+    width: 300px;
+    height: 40px;
+    color: white;
+    background: green;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 5px 2px 8px 1px #888888;
+    cursor: pointer;
+}

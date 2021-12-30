@@ -1,0 +1,30 @@
+Reflection of BMI Calculator
+
++ What went well
+- What not so well
+* What could be improved
+
+
++ Used React and state to calculate BMI using height and width
+
++ Used a formula to calculate.
+
++ Used state to update the UI based on an updated value
+
+- No styling yet. 
+
+* Give more than 1 hour to code these. 
+
+- Did not fully finish
+
++ Grasping React better. Grasping User interface concepts better too. 
+
+* Add slider
+
+* Add color feedback
+
+* Think more about user interface experiences
+
++ showed up
+
+
