@@ -32,23 +32,25 @@ const BMI = () => {
 
     return (
         <div>
-            <h4>BMI Calculator</h4>
+            <h4 className={styles.heading}>BMI Calculator</h4>
 
-            <label>
-                Please Enter your weight
-                <input placeholder="lbs" onChange={(e) => handle(e)} id="weight" required
-                ></input>
-            </label>
-
-            <label>
-                Please Enter your height
-                <input placeholder="feet" onChange={(e) => handle(e)} id="height" required></input>
-            </label>
-
-            <button onClick={calculateBMI}>Calculate</button>
-
-            <div>
+            <div className={styles.bmi}>
                 {bmi}
+            </div>
+
+            <label className={styles.weight}>
+                Please Enter your weight
+            </label>
+
+            <input className={styles["input-weight"]} placeholder="lbs" onChange={(e) => handle(e)} id="weight" required></input>
+
+            <label className={styles.height}>
+                Please Enter your height
+            </label>
+
+            <input className={styles["input-height"]} placeholder="feet e.g 6.2" onChange={(e) => handle(e)} id="height" required></input>
+            <div className={styles["button-div"]}>
+                <button onClick={calculateBMI} className={styles.button} type="submit">Calculate</button>
             </div>
         </div >
     )
@@ -59,12 +61,14 @@ export default BMI
 /*
 
 TODO
+[ ] Round BMI to 2 decimal place
 
-Use a GUI interface with sliders for height and weight.
+[ ] Give BMI colour based on result
 
-Update the user interface on the fly. Use colors as well
-as text to indicate health.
+[ ] Make input box underlined
 
+[ ] Use a GUI interface with sliders for height and weight.
 
+[ ] Update the user interface on the fly.
 
 */
