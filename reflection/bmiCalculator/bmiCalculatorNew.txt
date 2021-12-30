@@ -1,0 +1,32 @@
+Reflection
+
+
++ What went well
+- What not so well
+* What could be improved
+
+
+
++ Created a usable user interface that calculates BMI
+
++ Stretched my CSS styling with flat input, button shadow and better UI positioning
+
++ Got the job done
+
++ Turned up
+
+- Color does not change instantly after click. 
+
+* box shadow ideas
+
+* border bottom inputs ideas
+
++ designed interface mobile first
+
+- Basic UI styling. Need to show off more / experiment with styles.
+
+* more knowledge of react components, state
+
++ improving knowledge of how to use state
+
+* more knowledge of user interfaces design 
